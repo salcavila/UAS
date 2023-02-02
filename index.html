@@ -4,9 +4,398 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.css"/>
+    <link rel="stylesheet" type="text/css" href="styles\home.css" />
+    <script src="https://kit.fontawesome.com/50d3c94142.js" crossorigin="anonymous"></script>
+    <script src="js/bootstrap.js"></script>
+
+
 </head>
 <body>
-    <h1>UAS TKKPL</h1>
+
+    <!-- Awal Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container">
+            <a class="navbar-brand" href="#">
+                <img src="assets\image\logo.jpg" alt="Logo" width="50" height="50" class="me-2">
+                ZARA
+              </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <form class="d-flex ms-auto my-4 my-lg-0" role="search">
+                <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                <button class="btn-light" type="submit"><i class="fa-sharp fa-solid fa-magnifying-glass"></i></button>
+              </form>
+
+              <!-- List Navbar -->
+            <ul class="navbar-nav ms-auto">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Keranjang</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Notifikasi</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Bantuan</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Daftar</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Masuk</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+      <!-- Akhir Navbar -->
+
+      <!-- Awal Carousel -->
+      <div class="container">
+        <div id="carouselExampleIndicators" class="carousel slide mt-4" data-bs-ride="carousel">
+          <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+          </div>
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img src="assets/image/laptop_1.jpg" class="d-block img-fluid" alt="...">
+            </div>
+            <div class="carousel-item">
+              <img src="assets/image/laptop_2.jpg" class="d-block img-fluid" alt="...">
+            </div>
+            <div class="carousel-item">
+              <img src="assets/image/laptop_3.jpeg" class="d-block img-fluid" alt="...">
+            </div>
+          </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+      </div>
+      <!-- Akhir Carousel -->
+
+      <!-- Awal Kategori -->
+      <div class="container mt-5">
+        <div class="judul-kategori" style="background-color: #FFFFFF; padding: 5px 10px;">
+          <h5 class="text-center" style="margin-top:5px"><b>KATEGORI</b></h5>
+        </div>
+        <div class="row text-center row-container mt-2">
+          <div class="col-lg-2 col-md-3 col-sm-4 col-6">
+            <div class="menu-kategori">
+              <a href="#"><img src="assets\kategori\logo_asus.jpeg" class="img-kategori mt-3"></a>
+              <p class="mt-2">Asus</p>
+            </div>
+          </div>
+          <div class="col-lg-2 col-md-3 col-sm-4 col-6">
+            <div class="menu-kategori">
+              <a href="#"><img src="assets\kategori\logo_acer.jpeg" class="img-kategori mt-3"></a>
+              <p class="mt-2">Acer</p>
+            </div>
+          </div>
+          <div class="col-lg-2 col-md-3 col-sm-4 col-6">
+            <div class="menu-kategori">
+              <a href="#"><img src="assets\kategori\logo_lenovo.jpeg" class="img-kategori mt-3"></a>
+              <p class="mt-2">Lenovo</p>
+            </div>
+          </div>
+          <div class="col-lg-2 col-md-3 col-sm-4 col-6">
+            <div class="menu-kategori">
+              <a href="#"><img src="assets\kategori\logo_zyrex.png" class="img-kategori mt-3"></a>
+              <p class="mt-2">Zyrex</p>
+            </div>
+          </div>
+          <div class="col-lg-2 col-md-3 col-sm-4 col-6">
+            <div class="menu-kategori">
+              <a href="#"><img src="assets\kategori\logo_thosiba.png" class="img-kategori mt-3"></a>
+              <p class="mt-2">Thosiba</p>
+            </div>
+          </div>
+          <div class="col-lg-2 col-md-3 col-sm-4 col-6">
+            <div class="menu-kategori">
+              <a href="#"><img src="assets\kategori\logo_hp.jpeg" class="img-kategori mt-3"></a>
+              <p class="mt-2">HP</p>
+            </div>
+          </div>        
+        </div>
+      </div>
+      <!-- Akhir Kategori -->
+
+      <!-- Awal Produk -->
+        <div class="container mt-2">
+          <div class="judul-kategori" style="background-color: #FFFFFF; padding: 5px 10px;">
+            <h5 class="text-center" style="margin-top:5px"><b>PRODUK</b></h5>
+          </div>
+        <div class="row">
+          <div class="col-lg-2 col-md-2 col-sm-4 col-6 mt-2">
+            <a href="pages\itemList.html" class="text-decoration-none text-dark">
+            <div class="card text-center">
+              <img src="assets\produk\laptop_1.jpeg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h6 class="card-title">Asus ROG</h6>
+                <div class="icon-bintang">
+                  <i class="fa-solid fa-star" style="color: orange;"></i>
+                  <i class="fa-solid fa-star" style="color: orange;"></i>
+                  <i class="fa-solid fa-star" style="color: orange;"></i>
+                  <i class="fa-solid fa-star" style="color: orange;"></i>
+                  <i class="fa-regular fa-star"style="color: orange;"></i>
+                </div>
+                <p class="card-text mt-2">Rp.17.000.000</p>
+                <a href="#" class="btn btn-dark d-grid">Beli</a>
+              </div></a>
+            </div>
+        </a>
+          </div>
+          <div class="col-lg-2 col-md-2 col-sm-4 col-6 mt-2">
+            <a href="pages\itemList.html" class="text-decoration-none text-dark">
+            <div class="card text-center">
+              <img src="assets\produk\laptop_2.jpeg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h6 class="card-title">Asus Zephyrus</h6>
+                <div class="icon-bintang">
+                  <i class="fa-solid fa-star" style="color: orange;"></i>
+                  <i class="fa-solid fa-star" style="color: orange;"></i>
+                  <i class="fa-solid fa-star" style="color: orange;"></i>
+                  <i class="fa-solid fa-star" style="color: orange;"></i>
+                  <i class="fa-regular fa-star"style="color: orange;"></i>
+                </div>
+                <p class="card-text mt-2">Rp.15.000.000</p>
+                <a href="#" class="btn btn-dark d-grid">Beli</a>
+              </div>
+            </div>
+            </a>
+          </div>
+          <div class="col-lg-2 col-md-2 col-sm-4 col-6 mt-2">
+            <a href="pages\itemList.html" class="text-decoration-none text-dark">
+            <div class="card text-center">
+              <img src="assets\produk\laptop_3.jpeg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h6 class="card-title">Macbook Pro</h6>
+                <div class="icon-bintang">
+                  <i class="fa-solid fa-star" style="color: orange;"></i>
+                  <i class="fa-solid fa-star" style="color: orange;"></i>
+                  <i class="fa-solid fa-star" style="color: orange;"></i>
+                  <i class="fa-solid fa-star" style="color: orange;"></i>
+                  <i class="fa-regular fa-star"style="color: orange;"></i>
+                </div>
+                <p class="card-text mt-2">Rp.27.000.000</p>
+                <a href="#" class="btn btn-dark d-grid">Beli</a>
+              </div></a>
+            </div>
+
+
+          </div>
+          <div class="col-lg-2 col-md-2 col-sm-4 col-6 mt-2">
+            <a href="pages\itemList.html" class="text-decoration-none text-dark">
+            <div class="card text-center">
+              <img src="assets\produk\laptop_4.jpeg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h6 class="card-title">Omen</h6>
+                <div class="icon-bintang">
+                  <i class="fa-solid fa-star" style="color: orange;"></i>
+                  <i class="fa-solid fa-star" style="color: orange;"></i>
+                  <i class="fa-solid fa-star" style="color: orange;"></i>
+                  <i class="fa-solid fa-star" style="color: orange;"></i>
+                  <i class="fa-regular fa-star"style="color: orange;"></i>
+                </div>
+                <p class="card-text mt-2">Rp.18.000.000</p>
+                <a href="#" class="btn btn-dark d-grid">Beli</a>
+              </div>
+            </div></a>
+          </div>
+
+          <div class="col-lg-2 col-md-2 col-sm-4 col-6  mt-2">
+            <a href="pages\itemList.html" class="text-decoration-none text-dark">
+            <div class="card text-center">
+              <img src="assets\produk\laptop_5.jpeg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h6 class="card-title">Lenovo</h6>
+                <div class="icon-bintang">
+                  <i class="fa-solid fa-star" style="color: orange;"></i>
+                  <i class="fa-solid fa-star" style="color: orange;"></i>
+                  <i class="fa-solid fa-star" style="color: orange;"></i>
+                  <i class="fa-solid fa-star" style="color: orange;"></i>
+                  <i class="fa-regular fa-star"style="color: orange;"></i>
+                </div>
+                <p class="card-text mt-2">Rp.17.000.000</p>
+                <a href="#" class="btn btn-dark d-grid">Beli</a>
+              </div>
+            </div></a>
+          </div>
+
+          <div class="col-lg-2 col-md-2 col-sm-4 col-6 mt-2">
+            <a href="pages\itemList.html" class="text-decoration-none text-dark">
+            <div class="card text-center">
+              <img src="assets\produk\laptop_7.jpeg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h6 class="card-title">Asus</h6>
+                <div class="icon-bintang">
+                  <i class="fa-solid fa-star" style="color: orange;"></i>
+                  <i class="fa-solid fa-star" style="color: orange;"></i>
+                  <i class="fa-solid fa-star" style="color: orange;"></i>
+                  <i class="fa-solid fa-star" style="color: orange;"></i>
+                  <i class="fa-regular fa-star"style="color: orange;"></i>
+                </div>
+                <p class="card-text mt-2">Rp.12.000.000</p>
+                <a href="#" class="btn btn-dark d-grid">Beli</a>
+              </div>
+            </div></a>
+          </div>
+
+          <div class="col-lg-2 col-md-2 col-sm-4 col-6 mt-2">
+            <a href="pages\itemList.html" class="text-decoration-none text-dark">
+            <div class="card text-center">
+              <img src="assets\produk\laptop_8.jpeg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h6 class="card-title">Zyrex</h6>
+                <div class="icon-bintang">
+                  <i class="fa-solid fa-star" style="color: orange;"></i>
+                  <i class="fa-solid fa-star" style="color: orange;"></i>
+                  <i class="fa-solid fa-star" style="color: orange;"></i>
+                  <i class="fa-solid fa-star" style="color: orange;"></i>
+                  <i class="fa-regular fa-star"style="color: orange;"></i>
+                </div>
+                <p class="card-text mt-2">Rp.4.000.000</p>
+                <a href="#" class="btn btn-dark d-grid">Beli</a>
+              </div>
+            </div></a>
+          </div>
+
+          <div class="col-lg-2 col-md-2 col-sm-4 col-6 mt-2">
+            <a href="pages\itemList.html" class="text-decoration-none text-dark">
+            <div class="card text-center">
+              <img src="assets\produk\laptop_9.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h6 class="card-title">Asus</h6>
+                <div class="icon-bintang">
+                  <i class="fa-solid fa-star" style="color: orange;"></i>
+                  <i class="fa-solid fa-star" style="color: orange;"></i>
+                  <i class="fa-solid fa-star" style="color: orange;"></i>
+                  <i class="fa-solid fa-star" style="color: orange;"></i>
+                  <i class="fa-regular fa-star"style="color: orange;"></i>
+                </div>
+                <p class="card-text mt-2">Rp.12.000.000</p>
+                <a href="#" class="btn btn-dark d-grid">Beli</a>
+              </div>
+            </div></a>
+          </div>
+
+          <div class="col-lg-2 col-md-2 col-sm-4 col-6 mt-2">
+            <a href="pages\itemList.html" class="text-decoration-none text-dark">
+            <div class="card text-center">
+              <img src="assets\produk\laptop_10.jpeg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h6 class="card-title">Asus</h6>
+                <div class="icon-bintang">
+                  <i class="fa-solid fa-star" style="color: orange;"></i>
+                  <i class="fa-solid fa-star" style="color: orange;"></i>
+                  <i class="fa-solid fa-star" style="color: orange;"></i>
+                  <i class="fa-solid fa-star" style="color: orange;"></i>
+                  <i class="fa-regular fa-star"style="color: orange;"></i>
+                </div>
+                <p class="card-text mt-2">Rp.12.000.000</p>
+                <a href="#" class="btn btn-dark d-grid">Beli</a>
+              </div>
+            </div></a>
+          </div>
+
+          <div class="col-lg-2 col-md-2 col-sm-4 col-6 mt-2">
+            <a href="pages\itemList.html" class="text-decoration-none text-dark">
+            <div class="card text-center">
+              <img src="assets\produk\laptop_11.jpeg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h6 class="card-title">Asus</h6>
+                <div class="icon-bintang">
+                  <i class="fa-solid fa-star" style="color: orange;"></i>
+                  <i class="fa-solid fa-star" style="color: orange;"></i>
+                  <i class="fa-solid fa-star" style="color: orange;"></i>
+                  <i class="fa-solid fa-star" style="color: orange;"></i>
+                  <i class="fa-regular fa-star"style="color: orange;"></i>
+                </div>
+                <p class="card-text mt-2">Rp.12.000.000</p>
+                <a href="#" class="btn btn-dark d-grid">Beli</a>
+              </div>
+            </div></a>
+          </div>
+
+          <div class="col-lg-2 col-md-2 col-sm-4 col-6 mt-2">
+            <a href="pages\itemList.html" class="text-decoration-none text-dark">
+            <div class="card text-center">
+              <img src="assets\produk\laptop_12.jpeg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h6 class="card-title">Asus</h6>
+                <div class="icon-bintang">
+                  <i class="fa-solid fa-star" style="color: orange;"></i>
+                  <i class="fa-solid fa-star" style="color: orange;"></i>
+                  <i class="fa-solid fa-star" style="color: orange;"></i>
+                  <i class="fa-solid fa-star" style="color: orange;"></i>
+                  <i class="fa-regular fa-star"style="color: orange;"></i>
+                </div>
+                <p class="card-text mt-2">Rp.12.000.000</p>
+                <a href="#" class="btn btn-dark d-grid">Beli</a>
+              </div>
+            </div></a>
+          </div>
+
+          <div class="col-lg-2 col-md-2 col-sm-4 col-6 mt-2">
+            <a href="pages\itemList.html" class="text-decoration-none text-dark">
+            <div class="card text-center">
+              <img src="assets\produk\laptop_1.jpeg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h6 class="card-title">Asus</h6>
+                <div class="icon-bintang">
+                  <i class="fa-solid fa-star" style="color: orange;"></i>
+                  <i class="fa-solid fa-star" style="color: orange;"></i>
+                  <i class="fa-solid fa-star" style="color: orange;"></i>
+                  <i class="fa-solid fa-star" style="color: orange;"></i>
+                  <i class="fa-regular fa-star"style="color: orange;"></i>
+                </div>
+                <p class="card-text mt-2">Rp.12.000.000</p>
+                <a href="#" class="btn btn-dark d-grid">Beli</a>
+              </div>
+            </div>
+          </a>
+          </div>
+  
+        </div>
+        </div>
+      <!-- Akhir Produk -->
+
+      <!-- Awal Footer -->
+      <footer class="bg-light p-5 mt-5">
+        <div class="container">
+          <div class="row mt-2">
+            <div class="col-md-6 text-md-start text-center pt-2 pb-2">
+              <a href="#" class="text-decoration-none">
+                <img src="assets\produk\logo.jpg" style="width: 40px" alt="">
+              </a>
+              <span>Copyright @2023 | Create by <a href="https://iprice.co.id/komputer/laptop/" class="text-decoration-none text-dark fw-bold">Apaiyaa</a></span>
+            </div>
+            <div class="col-md-6 text-md-end text-center  pt-2 pb-2">
+              <a href="#" class="text-decoration-none">
+                <img src="assets\sosial_media\logo_fb.jpg" class="ms-2" style="width: 40px" alt="">
+              </a>
+              <a href="#" class="text-decoration-none">
+                <img src="assets\sosial_media\logo_ig.jpg" class="ms-2" style="width: 55px" alt="">
+              </a>
+              <a href="#" class="text-decoration-none">
+                <img src="assets\sosial_media\logo_twitter.jpg" class="ms-2" style="width: 45px" alt="">
+              </a>
+              <a href="#" class="text-decoration-none">
+                <img src="assets\sosial_media\logo_linkedin.png" class="ms-2" style="width: 35px" alt="">
+              </a>
+            </div>
+          </div>
+        </div>
+      </footer>
+      <!-- Akhir Footer -->
 </body>
 </html>

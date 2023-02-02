@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+body{
+    background-color: #EAEAEA;
+    font-family: 'Poppins', sans-serif;
+    color: #2D2D2D;
+    font-size: 14px;
+}
+
+.form-control{
+    font-size: 14px;
+}
+
+@media screen and (min-width: 994px) {    
+.form-control {
+    width: 550px;
+    }
+}
+
+@media screen and (max-width: 994px) {
+.navbar-nav{
+    text-align: center;
+    }
+}
+
+/* Style Kategori */
+
+.img-kategori{
+    width: 150px;
+}
+
+.img-kategori:hover{
+    transform: scale(1.2);
+    transition: 0.2s;
+}
+.row-container{
+    background-color: #ffffff;
+    margin: 0px;
+}
+/* Style Kategori */
+.card:hover {
+    border: 1px solid #afaaaa;
+}
+/* Style Kategori */
