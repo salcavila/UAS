@@ -1,0 +1,711 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" type="text/css" href="../css/bootstrap.css" />
+    <link rel="stylesheet" type="text/css" href="../styles/produk.css" />
+    <link rel="stylesheet" type="text/css" href="../styles/cart.css" />
+    <script
+      src="https://kit.fontawesome.com/50d3c94142.js"
+      crossorigin="anonymous"
+    ></script>
+    <script src="../js/bootstrap.js"></script>
+  </head>
+  <body>
+    <!-- Awal Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+      <div class="container">
+        <a class="navbar-brand" href="../index.html">
+          <img
+            src="..\assets\image\logo.jpg"
+            alt="Logo"
+            width="50"
+            height="50"
+            class="me-2"
+          />
+          ZARA
+        </a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <form class="d-flex ms-auto my-4 my-lg-0" role="search">
+            <input
+              class="form-control me-2"
+              type="search"
+              placeholder="Search"
+              aria-label="Search"
+            />
+            <button class="btn-light" type="submit">
+              <i class="fa-solid fa-magnifying-glass"></i>
+            </button>
+          </form>
+
+          <!-- List Navbar -->
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#"
+                >Keranjang</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Notifikasi</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Bantuan</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="register.html">Daftar</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="login.html">Masuk</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!-- Akhir Navbar -->
+
+    <!-- Awal Produk -->
+    <div class="container">
+      <div class="row" style="margin: 20px 100px 20px 100px">
+        <!-- START ITEM LIST -->
+        <div class="col-sm-8">
+          <div class="checkbox">
+            <input
+              type="checkbox"
+              value=""
+              id="defaultChecked2"
+              checked
+              style="float: left; margin-top: 5px; margin-right: 10px"
+            />
+          </div>
+          <label style="border-bottom: 1px solid black"
+            ><b>Asus Flagship Store</b></label
+          >
+          <div class="container produk-cart">
+            <!-- START ITEM 1 -->
+            <div class="checkbox">
+              <input
+                type="checkbox"
+                value=""
+                id="defaultChecked2"
+                checked
+                style="float: left; margin-top: 6%; margin-right: 10px"
+              />
+            </div>
+            <div
+              class="container tumbnail"
+              style="background-image: url('../assets/produk/laptop_1.jpeg')"
+            ></div>
+            <p style="margin-bottom: 2px">
+              ASUS ROG Strix G15 G513RM-R936D6G-O
+              <span class="h6" style="float: right; color: #0f3981"
+                ><span
+                  style="
+                    text-decoration: line-through;
+                    color: #ea4d4d;
+                    font-size: 12px;
+                  "
+                  >Rp31.499.000</span
+                >
+                <br />Rp26.999.000</span
+              >
+            </p>
+            <p class="small-text" style="margin-top: -5px; margin-bottom: 2px">
+              Eclipse Gray
+            </p>
+
+            <!-- START PLUS-MINUS BUTTON -->
+            <div class="form-group">
+              <div class="input-group" style="width: 16%">
+                <div class="input-group-btn">
+                  <button
+                    id="down"
+                    class="btn btn-default"
+                    onclick=" down('1')"
+                  >
+                    -
+                  </button>
+                </div>
+                <input
+                  type="text"
+                  id="myNumber"
+                  class="form-control input-number"
+                  value="1"
+                />
+                <div class="input-group-btn">
+                  <button id="up" class="btn btn-default" onclick="up('7')">
+                    +
+                  </button>
+                </div>
+              </div>
+              <span class="small-text" style="color: red"
+                >Hurry! Tersisa hanya 3 item lagi</span
+              >
+              <a href="#" style="float: right"
+                ><i class="fas fa-heart small-icon" style="color: black"></i
+              ></a>
+              <a href="#" style="float: right"
+                ><i class="fas fa-trash small-icon" style="color: black"></i
+              ></a>
+            </div>
+            <!-- END PLUS-MINUS BUTTON -->
+            <hr />
+            <!-- END ITEM 1 -->
+          </div>
+
+          <div class="container produk-cart">
+            <!-- START ITEM 2 -->
+            <div class="checkbox">
+              <input
+                type="checkbox"
+                value=""
+                id="defaultChecked2"
+                checked
+                style="float: left; margin-top: 6%; margin-right: 10px"
+              />
+            </div>
+            <div
+              class="container tumbnail"
+              style="background-image: url('../assets/produk/asus_pen.jpg')"
+            ></div>
+            <p style="margin-bottom: 2px">
+              Asus Pen 2.0 SA203H<span
+                class="h6"
+                style="float: right; color: #0f3981"
+                >Rp1.000.000</span
+              >
+            </p>
+            <p class="small-text" style="margin-top: -5px; margin-bottom: 2px">
+              Black
+            </p>
+
+            <!-- START PLUS-MINUS BUTTON -->
+            <div class="form-group">
+              <div class="input-group" style="width: 16%">
+                <div class="input-group-btn">
+                  <button
+                    id="down1"
+                    class="btn btn-default"
+                    onclick=" down1('1')"
+                  >
+                    -
+                  </button>
+                </div>
+                <input
+                  type="text"
+                  id="myNumber1"
+                  class="form-control input-number"
+                  value="1"
+                />
+                <div class="input-group-btn">
+                  <button id="up1" class="btn btn-default" onclick="up1('21')">
+                    +
+                  </button>
+                </div>
+              </div>
+              <span class="small-text">Tersisa 21 item</span>
+              <a href="#" style="float: right"
+                ><i class="fas fa-heart small-icon" style="color: black"></i
+              ></a>
+              <a href="#" style="float: right"
+                ><i class="fas fa-trash small-icon" style="color: black"></i
+              ></a>
+            </div>
+            <!-- END PLUS-MINUS BUTTON -->
+            <!-- END ITEM 2 -->
+          </div>
+
+          <div class="checkbox">
+            <input
+              type="checkbox"
+              value=""
+              id="defaultChecked2"
+              checked
+              style="float: left; margin-top: 20px; margin-right: 10px"
+            />
+          </div>
+          <label style="border-bottom: 1px solid black; margin-top: 15px"
+            ><b>Lenovo Official</b></label
+          >
+          <div class="container produk-cart">
+            <!-- START ITEM 1 -->
+            <div class="checkbox">
+              <input
+                type="checkbox"
+                value=""
+                id="defaultChecked2"
+                checked
+                style="float: left; margin-top: 6%; margin-right: 10px"
+              />
+            </div>
+            <div
+              class="container tumbnail"
+              style="background-image: url('../assets/produk/laptop_2.jpeg')"
+            ></div>
+            <p style="margin-bottom: 2px">
+              Lenovo IdeaPad Slim1 14AMN7 Ryzen 5 7520U 8GB 512GB SSD W11 OHS
+              <span class="h6" style="float: right; color: #0f3981"
+                >Rp8.499.000</span
+              >
+            </p>
+            <p class="small-text" style="margin-top: -5px; margin-bottom: 2px">
+              Cloud Grey
+            </p>
+
+            <!-- START PLUS-MINUS BUTTON -->
+            <div class="form-group">
+              <div class="input-group" style="width: 16%">
+                <div class="input-group-btn">
+                  <button
+                    id="down2"
+                    class="btn btn-default"
+                    onclick=" down2('1')"
+                  >
+                    -
+                  </button>
+                </div>
+                <input
+                  type="text"
+                  id="myNumber2"
+                  class="form-control input-number"
+                  value="1"
+                />
+                <div class="input-group-btn">
+                  <button id="up2" class="btn btn-default" onclick="up2('30')">
+                    +
+                  </button>
+                </div>
+              </div>
+              <span class="small-text">Tersisa 30 item</span>
+              <a href="#" style="float: right"
+                ><i class="fas fa-heart small-icon" style="color: black"></i
+              ></a>
+              <a href="#" style="float: right"
+                ><i class="fas fa-trash small-icon" style="color: black"></i
+              ></a>
+            </div>
+            <!-- END PLUS-MINUS BUTTON -->
+            <!-- END ITEM 1 -->
+          </div>
+
+          <div class="container produk-cart">
+            <!-- START ITEM 3 -->
+            <div class="checkbox">
+              <input
+                type="checkbox"
+                value=""
+                id="defaultChecked2"
+                checked
+                style="float: left; margin-top: 6%; margin-right: 10px"
+              />
+            </div>
+            <div
+              class="container tumbnail"
+              style="
+                background-image: url('../assets/produk/lenovo_earbud.jpg');
+              "
+            ></div>
+            <p style="margin-bottom: 2px">
+              Lenovo Stereo Earbud with Mic LS-118
+              <span class="h6" style="float: right; color: #0f3981"
+                ><span
+                  style="
+                    text-decoration: line-through;
+                    color: #ea4d4d;
+                    font-size: 12px;
+                  "
+                  >Rp129.000</span
+                ><br />Rp99.000</span
+              >
+            </p>
+            <p class="small-text" style="margin-top: -5px; margin-bottom: 2px">
+              Black
+            </p>
+
+            <!-- START PLUS-MINUS BUTTON -->
+            <div class="form-group">
+              <div class="input-group" style="width: 16%">
+                <div class="input-group-btn">
+                  <button
+                    id="down5"
+                    class="btn btn-default"
+                    onclick=" down5('1')"
+                  >
+                    -
+                  </button>
+                </div>
+                <input
+                  type="text"
+                  id="myNumber5"
+                  class="form-control input-number"
+                  value="1"
+                />
+                <div class="input-group-btn">
+                  <button id="up5" class="btn btn-default" onclick="up5('2')">
+                    +
+                  </button>
+                </div>
+              </div>
+              <a href="#" style="float: right"
+                ><i class="fas fa-heart small-icon" style="color: black"></i
+              ></a>
+              <a href="#" style="float: right"
+                ><i class="fas fa-trash small-icon" style="color: black"></i
+              ></a>
+            </div>
+            <!-- END PLUS-MINUS BUTTON -->
+            <!-- END ITEM 3 -->
+          </div>
+        </div>
+        <!-- END ITEM LIST -->
+
+        <!-- START DETAIL PEMBELIAN -->
+        <div class="col-sm-4">
+          <label style="border-bottom: 1px solid black"
+            ><b>Detail Pembayaran</b></label
+          >
+          <div class="container" style="background-color: #fff; padding: 10px">
+            Masukkan voucher atau gift card <br />
+            <!-- START VOUCHER -->
+            <form
+              class="example"
+              style="width: 93%; margin: auto; border-radius: 0.375rem"
+            >
+              <input type="text" placeholder="Masukkan Kode" name="search" />
+              <button type="button" data-toggle="modal" data-target="#voucher">
+                Cari
+              </button>
+            </form>
+            <!-- MODAL -------------------------------------------------------------------------------------------------------------------------->
+            <div
+              class="modal fade"
+              id="voucher"
+              tabindex="-1"
+              role="dialog"
+              aria-labelledby="voucher"
+              aria-hidden="true"
+            >
+              <div class="modal-dialog modal-dialog-centered" role="document">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLongTitle">
+                      Cari Voucher
+                    </h5>
+                    <button
+                      type="button"
+                      class="close"
+                      data-dismiss="modal"
+                      aria-label="Close"
+                    >
+                      <span aria-hidden="true">&times;</span>
+                    </button>
+                  </div>
+                  <div class="modal-body">
+                    <!-- VOUCHER 1 -->
+                    <div
+                      class="container"
+                      style="border: 1px solid grey; border-radius: 5px"
+                    >
+                      <div class="row">
+                        <div
+                          class="col-sm-2"
+                          style="background-color: #18cee4; color: white"
+                        >
+                          <p
+                            style="
+                              margin-top: 10px;
+                              text-align: center;
+                              font-weight: 500;
+                            "
+                          >
+                            Gratis <br />
+                            Ongkir
+                          </p>
+                        </div>
+                        <div class="col-sm-8" style="padding-top: 10px">
+                          <h6>Minimal Belanja IDR150,000</h6>
+                          <p class="small-text">Hingga 30.06.2020</p>
+                        </div>
+                        <div
+                          class="col-sm-2"
+                          style="padding-top: 20px; text-align: right"
+                        >
+                          <div class="form-check" style="border-radius: 50%">
+                            <input
+                              type="checkbox"
+                              class="form-check-input"
+                              id="dropdownCheck"
+                            />
+                            <label
+                              class="form-check-label"
+                              for="dropdownCheck"
+                            ></label>
+                          </div>
+                          <a href="" style="font-size: 10pt">S&K</a>
+                        </div>
+                      </div>
+                    </div>
+                    <!-- VOUCHER 2 -->
+                    <div
+                      class="container"
+                      style="
+                        border: 1px solid grey;
+                        border-radius: 5px;
+                        margin-top: 10px;
+                      "
+                    >
+                      <div class="row">
+                        <div
+                          class="col-sm-2"
+                          style="background-color: #18cee4; color: white"
+                        >
+                          <p
+                            style="
+                              margin-top: 10px;
+                              text-align: center;
+                              font-weight: 500;
+                            "
+                          >
+                            Gratis <br />
+                            Ongkir
+                          </p>
+                        </div>
+                        <div class="col-sm-8" style="padding-top: 10px">
+                          <h6>Minimal Belanja IDR150,000</h6>
+                          <p class="small-text">Hingga 30.06.2020</p>
+                        </div>
+                        <div
+                          class="col-sm-2"
+                          style="padding-top: 20px; text-align: right"
+                        >
+                          <div class="form-check" style="border-radius: 50%">
+                            <input
+                              type="checkbox"
+                              class="form-check-input"
+                              id="dropdownCheck"
+                            />
+                            <label
+                              class="form-check-label"
+                              for="dropdownCheck"
+                            ></label>
+                          </div>
+                          <a href="" style="font-size: 10pt">S&K</a>
+                        </div>
+                      </div>
+                    </div>
+                    <!-- VOUCHER 3 -->
+                    <div
+                      class="container"
+                      style="
+                        border: 1px solid grey;
+                        border-radius: 5px;
+                        margin-top: 10px;
+                      "
+                    >
+                      <div class="row">
+                        <div
+                          class="col-sm-2"
+                          style="background-color: #18cee4; color: white"
+                        >
+                          <p
+                            style="
+                              margin-top: 10px;
+                              text-align: center;
+                              font-weight: 500;
+                            "
+                          >
+                            Diskon<br />30%
+                          </p>
+                        </div>
+                        <div class="col-sm-8" style="padding-top: 10px">
+                          <h6>Minimal Belanja IDR1,000,000</h6>
+                          <p class="small-text">Hingga 21.07.2020</p>
+                        </div>
+                        <div
+                          class="col-sm-2"
+                          style="padding-top: 20px; text-align: right"
+                        >
+                          <div class="form-check" style="border-radius: 50%">
+                            <input
+                              type="checkbox"
+                              class="form-check-input"
+                              id="dropdownCheck"
+                            />
+                            <label
+                              class="form-check-label"
+                              for="dropdownCheck"
+                            ></label>
+                          </div>
+                          <a href="" style="font-size: 10pt">S&K</a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="modal-footer">
+                    <button
+                      type="button"
+                      class="btn btn-black"
+                      data-dismiss="modal"
+                      style="width: 20%"
+                    >
+                      Pilih
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- MODAL ------------------------------------------------------------------------------------------------------------------------->
+            <!-- END VOUCHER -->
+            <hr />
+
+            <h6>Lokasi Pembeli</h6>
+            <p>
+              <i class="fas fa-map fa-checkout"></i><b>Rudi Oliver</b
+              ><span style="float: right"><a href="">Ubah</a></span>
+            </p>
+            <p style="margin-left: 20px; margin-top: -20px">
+              Jl. Gagak Komplek Taman Indah Sari No.42 B
+            </p>
+            <p>
+              <i class="fas fa-phone fa-checkout"></i>+62 811 9237 9201<span
+                style="float: right"
+                ><a href="">Ubah</a></span
+              >
+            </p>
+            <p>
+              <i class="fas fa-envelope-open fa-checkout"></i
+              >rudioliver@mail.com<span style="float: right"
+                ><a href="">Ubah</a></span
+              >
+            </p>
+            <hr />
+            <h6>Ringkasan belanja</h6>
+            <p>
+              Subtotal <span class="small-text">(1 item)</span>
+              <span style="float: right">Rp27.999.000</span><br />
+              Pengiriman <span style="float: right">FREE</span><br />Total<span
+                style="float: right; font-weight: bold"
+                >Rp27.999.000</span
+              >
+            </p>
+
+            <hr />
+
+            <h6>Pembayaran</h6>
+            <button class="opsi">
+              <i class="fas fa-credit-card fa-checkout"></i>Kredit/Kartu Debit<i
+                class="fas fa-angle-right"
+                style="float: right; color: black"
+              ></i>
+            </button>
+            <button class="opsi">
+              <i class="fas fa-truck fa-checkout"></i>Bayar di Tempat<i
+                class="fas fa-angle-right"
+                style="float: right; color: black"
+              ></i>
+            </button>
+            <button class="opsi">
+              <i class="fas fa-university fa-checkout"></i>Bank Transfer<i
+                class="fas fa-angle-right"
+                style="float: right; color: black"
+              ></i>
+            </button>
+            <button class="opsi">
+              <i class="fa fa-location-arrow fa-checkout"></i>Bayar di Counter<i
+                class="fas fa-angle-right"
+                style="float: right; color: black"
+              ></i>
+            </button>
+            <button class="opsi">
+              <i class="fab fa-paypal fa-checkout"></i>Paypal<i
+                class="fas fa-angle-right"
+                style="float: right; color: black"
+              ></i>
+            </button>
+            <p style="color: #ffc107; font-size: 14px">
+              Pembayaran di Counter Indomaret Telah Dipilih.
+            </p>
+            <a href="checkout.html"
+              ><button
+                type="submit"
+                class="btn btn-warning text-white btn-lg btn-custom"
+                style="width: 100%; margin-bottom: 10px"
+              >
+                Buat Pesanan
+              </button></a
+            >
+          </div>
+        </div>
+        <!-- END DETAIL PEMBELIAN -->
+      </div>
+    </div>
+
+    <!-- Awal Footer -->
+    <footer class="bg-light p-5 mt-5">
+      <div class="container">
+        <div class="row mt-2">
+          <div class="col-md-6 text-md-start text-center pt-2 pb-2">
+            <a href="#" class="text-decoration-none">
+              <img src="../assets\image\logo.jpg" style="width: 40px" alt="" />
+            </a>
+            <span
+              >Copyright @2023 | Create by
+              <a
+                href="https://iprice.co.id/komputer/laptop/"
+                class="text-decoration-none text-dark fw-bold"
+                >Apaiyaa</a
+              ></span
+            >
+          </div>
+          <div class="col-md-6 text-md-end text-center pt-2 pb-2">
+            <a href="#" class="text-decoration-none">
+              <img
+                src="../assets\sosial_media\logo_fb.jpg"
+                class="ms-2"
+                style="width: 40px"
+                alt=""
+              />
+            </a>
+            <a href="#" class="text-decoration-none">
+              <img
+                src="../assets\sosial_media\logo_ig.jpg"
+                class="ms-2"
+                style="width: 55px"
+                alt=""
+              />
+            </a>
+            <a href="#" class="text-decoration-none">
+              <img
+                src="../assets\sosial_media\logo_twitter.jpg"
+                class="ms-2"
+                style="width: 45px"
+                alt=""
+              />
+            </a>
+            <a href="#" class="text-decoration-none">
+              <img
+                src="../assets\sosial_media\logo_linkedin.png"
+                class="ms-2"
+                style="width: 35px"
+                alt=""
+              />
+            </a>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <!-- Akhir Footer -->
+  </body>
+</html>
