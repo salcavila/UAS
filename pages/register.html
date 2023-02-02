@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" type="text/css" href="../css/bootstrap.css" />
+    <link rel="stylesheet" type="text/css" href="../styles/home.css" />
+    <script
+      src="https://kit.fontawesome.com/50d3c94142.js"
+      crossorigin="anonymous"
+    ></script>
+    <script src="../js/bootstrap.js"></script>
+  </head>
+  <body>
+    <!-- Awal Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+      <div class="container">
+        <a class="navbar-brand" href="#">
+          <img
+            src="../assets\image\logo.jpg"
+            alt="Logo"
+            width="50"
+            height="50"
+            class="me-2"
+          />
+          ZARA
+        </a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <form class="d-flex ms-auto my-4 my-lg-0" role="search">
+            <input
+              class="form-control me-2"
+              type="search"
+              placeholder="Search"
+              aria-label="Search"
+            />
+            <button class="btn-light" type="submit">
+              <i class="fa-sharp fa-solid fa-magnifying-glass"></i>
+            </button>
+          </form>
+
+          <!-- List Navbar -->
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#"
+                >Keranjang</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Notifikasi</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Bantuan</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="register.html">Daftar</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="login.html">Masuk</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!-- Akhir Navbar -->
+
+    <!-- Awalan Register -->
+    <div class="container">
+    <div class="row">
+      <div class="col">
+          
+      </div>
+      <div class="col" style="background-color: white; margin: 30px; padding: 50px; border-radius: 10px; ">
+          <h1>Register</h1>
+              <form>
+                      <label for="exampleFormControlInput1">Nama Depan</label>
+                      <input type="name" class="form-control" id="exampleFormControlInput1" placeholder="Jane">
+  
+                      <label for="exampleFormControlInput1">Nama Belakang</label>
+                      <input type="name" class="form-control" id="exampleFormControlInput1" placeholder="Doe">
+  
+                      <label for="exampleFormControlInput1">Alamat Email</label>
+                      <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="nama@mail.com">
+  
+                      <label for="exampleFormControlInput1">Password</label>
+                      <input type="Password" class="form-control" id="exampleFormControlInput1" placeholder="*****">
+  
+                      <label for="exampleFormControlInput1">Konfirmasi Password</label>
+                      <input type="Password" class="form-control" id="exampleFormControlInput1" placeholder="*****">
+                  
+  
+                      <label for="exampleFormControlSelect1">Gender</label>
+                      <select class="form-control" id="exampleFormControlSelect1">
+                          <option>Laki-Laki</option>
+                          <option>Perempuan</option>
+                          <option>Lainnya</option>
+                      </select>
+  
+                      <label for="exampleFormControlInput1">Nomor Telepon</label>
+                      <input type="name" class="form-control" id="exampleFormControlInput1" placeholder="(+62) xxx xxxx xxxx">
+                      
+                      <label for="exampleFormControlInput1">Kota atau Kecamatan</label>
+                      <input type="name" class="form-control" id="exampleFormControlInput1" placeholder="Kota atau Kecamatan">
+                      <label for="exampleFormControlInput1">Kode Pos</label>
+                      <input type="name" class="form-control" id="exampleFormControlInput1" placeholder="Kode Pos">
+                          
+                      <label for="exampleFormControlInput1">Alamat Lengkap</label>
+                      <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+  
+              </form>
+  
+              <p><div class="checkbox">
+                    <label><input type="checkbox" value="" style="margin-right: 5px;">Saya ingin mendapatkan penawaran eksklusif dan promosi dari kami</label>
+              </div></p>
+  
+              
+              <!-- tombol modal -->
+              <button type="submit" class="btn btn-black" data-toggle="modal" data-target="#exampleModalCenter" style="width: 100%; margin-bottom: 10px;">Daftar</button>
+  
+              <!-- Modal -->
+              <div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+                <div class="modal-dialog modal-dialog-centered" role="document">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <h5 class="modal-title" id="exampleModalLongTitle">Pendaftaran Berhasil!</h5>
+                      <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                      </button>
+                    </div>
+                    <div class="modal-body">
+                        <img src="images/login/check.png" style="width: 150px; margin: auto; display: block;">
+                      <p style="text-align: justify;">Akun Anda sudah terdaftar. Kami telah mengirimkan e-mail verifikasi kepada Anda. Harap mengkonfirmasi pembuatan akun.</p>
+                    </div>
+                    <div class="modal-footer">
+                      <a href="login.html"><button type="button" class="btn btn-black" style="width: 100%;">Login Sekarang</button></a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+  
+              <p style="font-size: 15px; color: grey;">Dengan mengklik "DAFTAR", saya setuju dengan <a href="" style="color: blue;">Syarat & Ketentuan Penggunaan</a> dan <a href="" style="color: blue;">Kebijakan Privasi</a> TEAM6</p>
+  
+              <div class="dropdown-divider" style="margin-top: 20px; margin-bottom: 20px;"></div>
+  
+              <button type="button" class="btn btn-primary" style="width: 45%; margin-left: 5%;"><i class="fab fa-facebook-f" style="color: black;"></i>   Daftar dengan Facebook</button>
+              <button type="button" class="btn btn-danger" style="width: 45%;"><i class="fab fa-google" style="color: black;"></i>   Daftar dengan Google</button>
+  
+              <div class="dropdown-divider" style="margin-top: 20px; margin-bottom: 20px;"></div>
+  
+              <p><a href="login.html" style="color: blue;">Kembali ke halaman login</a></p>
+  
+      </div>
+      <div class="col"></div>
+    </div>
+  </div>
+    <!-- Akhir Register -->
+
+    <!-- Awal Footer -->
+    <footer class="bg-light p-5 mt-5">
+      <div class="container">
+        <div class="row mt-2">
+          <div class="col-md-6 text-md-start text-center pt-2 pb-2">
+            <a href="#" class="text-decoration-none">
+              <img src="../assets\produk\logo.jpg" style="width: 40px" alt="" />
+            </a>
+            <span
+              >Copyright @2023 | Create by
+              <a
+                href="https://iprice.co.id/komputer/laptop/"
+                class="text-decoration-none text-dark fw-bold"
+                >Apaiyaa</a
+              ></span
+            >
+          </div>
+          <div class="col-md-6 text-md-end text-center pt-2 pb-2">
+            <a href="#" class="text-decoration-none">
+              <img
+                src="../assets\sosial_media\logo_fb.jpg"
+                class="ms-2"
+                style="width: 40px"
+                alt=""
+              />
+            </a>
+            <a href="#" class="text-decoration-none">
+              <img
+                src="../assets\sosial_media\logo_ig.jpg"
+                class="ms-2"
+                style="width: 55px"
+                alt=""
+              />
+            </a>
+            <a href="#" class="text-decoration-none">
+              <img
+                src="../assets\sosial_media\logo_twitter.jpg"
+                class="ms-2"
+                style="width: 45px"
+                alt=""
+              />
+            </a>
+            <a href="#" class="text-decoration-none">
+              <img
+                src="../assets\sosial_media\logo_linkedin.png"
+                class="ms-2"
+                style="width: 35px"
+                alt=""
+              />
+            </a>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <!-- Akhir Footer -->
+  </body>
+</html>

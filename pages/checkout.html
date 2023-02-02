@@ -1,0 +1,296 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" type="text/css" href="../css/bootstrap.css" />
+    <link rel="stylesheet" type="text/css" href="../styles/produk.css" />
+    <link rel="stylesheet" type="text/css" href="../styles/cart.css" />
+    <script
+      src="https://kit.fontawesome.com/50d3c94142.js"
+      crossorigin="anonymous"
+    ></script>
+    <script src="../js/bootstrap.js"></script>
+  </head>
+  <body>
+    <!-- Awal Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+      <div class="container">
+        <a class="navbar-brand" href="../index.html">
+          <img
+            src="..\assets\image\logo.jpg"
+            alt="Logo"
+            width="50"
+            height="50"
+            class="me-2"
+          />
+          ZARA
+        </a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <form class="d-flex ms-auto my-4 my-lg-0" role="search">
+            <input
+              class="form-control me-2"
+              type="search"
+              placeholder="Search"
+              aria-label="Search"
+            />
+            <button class="btn-light" type="submit">
+              <i class="fa-solid fa-magnifying-glass"></i>
+            </button>
+          </form>
+
+          <!-- List Navbar -->
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#"
+                >Keranjang</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Notifikasi</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Bantuan</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="register.html">Daftar</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="login.html">Masuk</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!-- Akhir Navbar -->
+
+    <div class="container">
+      <div class="row" style="margin: 20px 100px 20px 100px">
+        <div class="col-sm-8">
+          <div class="container produk-cart">
+            <h3>Checkout</h3>
+            <hr />
+            <b>Alamat Pengiriman</b>
+            <p>
+              Rudi Oliver <br />
+              +62 811 9237 9201 <br />
+              Jl. Gagak Komplek Taman Indah Sari No.42 B
+              <span style="background-color: #ffc107; font-size: x-small">
+                (alamat rumah)</span
+              >
+            </p>
+
+            <button
+              type="submit"
+              class="btn btn-warning text-white btn-custom"
+              style="width: 40%; margin-bottom: 10px; padding: 10px"
+            >
+              Pilih alamat lain
+            </button>
+            <button
+              type="submit"
+              class="btn btn-warning text-white btn-custom"
+              style="width: 40%; margin-bottom: 10px; padding: 10px"
+            >
+              Kirim ke beberapa alamat
+            </button>
+
+            <hr />
+            <h5 style="margin-bottom: 20px">Asus Flagship Store</h5>
+            <div
+              class="container tumbnail"
+              style="background-image: url('../assets/produk/laptop_1.jpeg')"
+            ></div>
+            <p style="margin-bottom: 2px">
+              ASUS ROG Strix G15 G513RM-R936D6G-O
+              <span class="h6" style="float: right; color: #0f3981">
+                <br />Rp26.999.000</span
+              >
+            </p>
+            <p class="small-text" style="margin-top: -5px; margin-bottom: 2px">
+              Eclipse Gray
+            </p>
+          </div>
+
+          <div class="container produk-cart">
+            <div
+              class="container tumbnail"
+              style="background-image: url('../assets/produk/asus_pen.jpg')"
+            ></div>
+            <p style="margin-bottom: 2px">
+              Asus Pen 2.0 SA203H<span
+                class="h6"
+                style="float: right; color: #0f3981"
+                >Rp1.000.000</span
+              >
+            </p>
+            <p class="small-text" style="margin-top: -5px; margin-bottom: 2px">
+              Black
+            </p>
+          </div>
+
+          <div class="container produk-cart">
+            <hr style="margin-top: -20px" />
+            <p style="margin-bottom: 2px; font-size: medium">
+              Subtotal
+              <span
+                class="h6"
+                style="float: right; color: #0f3981; margin-top: -20px"
+              >
+                <br />Rp27.999.000</span
+              >
+            </p>
+          </div>
+        </div>
+
+        <!-- START DETAIL PEMBELIAN -->
+        <div class="col-sm-4">
+          <label style="border-bottom: 1px solid black"
+            ><b>Detail Pembayaran</b></label
+          >
+          <div class="container" style="background-color: #fff; padding: 10px">
+            Masukkan voucher atau gift card <br />
+            <!-- START VOUCHER -->
+            <form
+              class="example"
+              style="width: 93%; margin: auto; border-radius: 0.375rem"
+            >
+              <input type="text" placeholder="Masukkan Kode" name="search" />
+              <button type="button" data-toggle="modal" data-target="#voucher">
+                Cari
+              </button>
+            </form>
+
+            <!-- END VOUCHER -->
+
+            <hr />
+            <h6>Ringkasan belanja</h6>
+            <p>
+              Subtotal <span class="small-text">(2 item)</span>
+              <span style="float: right">Rp27.999.000</span><br />
+              Pengiriman <span style="float: right">FREE</span><br />Total<span
+                style="float: right; font-weight: bold"
+                >Rp27.999.000</span
+              >
+            </p>
+
+            <hr />
+
+            <h6>Pembayaran</h6>
+            <button class="opsi">
+              <i class="fas fa-credit-card fa-checkout"></i>Kredit/Kartu Debit<i
+                class="fas fa-angle-right"
+                style="float: right; color: black"
+              ></i>
+            </button>
+            <button class="opsi">
+              <i class="fas fa-truck fa-checkout"></i>Bayar di Tempat<i
+                class="fas fa-angle-right"
+                style="float: right; color: black"
+              ></i>
+            </button>
+            <button class="opsi">
+              <i class="fas fa-university fa-checkout"></i>Bank Transfer<i
+                class="fas fa-angle-right"
+                style="float: right; color: black"
+              ></i>
+            </button>
+            <button class="opsi">
+              <i class="fa fa-location-arrow fa-checkout"></i>Bayar di Counter<i
+                class="fas fa-angle-right"
+                style="float: right; color: black"
+              ></i>
+            </button>
+            <button class="opsi">
+              <i class="fab fa-paypal fa-checkout"></i>Paypal<i
+                class="fas fa-angle-right"
+                style="float: right; color: black"
+              ></i>
+            </button>
+            <p style="color: #ffc107; font-size: 14px">
+              Pembayaran di Counter Indomaret Telah Dipilih.
+            </p>
+            <a href="checkout.html"
+              ><button
+                type="submit"
+                class="btn btn-warning text-white btn-lg btn-custom"
+                style="width: 100%; margin-bottom: 10px"
+              >
+                Checkout
+              </button></a
+            >
+          </div>
+        </div>
+        <!-- END DETAIL PEMBELIAN -->
+      </div>
+    </div>
+
+    <!-- Awal Footer -->
+    <footer class="bg-light p-5 mt-5">
+      <div class="container">
+        <div class="row mt-2">
+          <div class="col-md-6 text-md-start text-center pt-2 pb-2">
+            <a href="#" class="text-decoration-none">
+              <img src="../assets\image\logo.jpg" style="width: 40px" alt="" />
+            </a>
+            <span
+              >Copyright @2023 | Create by
+              <a
+                href="https://iprice.co.id/komputer/laptop/"
+                class="text-decoration-none text-dark fw-bold"
+                >Apaiyaa</a
+              ></span
+            >
+          </div>
+          <div class="col-md-6 text-md-end text-center pt-2 pb-2">
+            <a href="#" class="text-decoration-none">
+              <img
+                src="../assets\sosial_media\logo_fb.jpg"
+                class="ms-2"
+                style="width: 40px"
+                alt=""
+              />
+            </a>
+            <a href="#" class="text-decoration-none">
+              <img
+                src="../assets\sosial_media\logo_ig.jpg"
+                class="ms-2"
+                style="width: 55px"
+                alt=""
+              />
+            </a>
+            <a href="#" class="text-decoration-none">
+              <img
+                src="../assets\sosial_media\logo_twitter.jpg"
+                class="ms-2"
+                style="width: 45px"
+                alt=""
+              />
+            </a>
+            <a href="#" class="text-decoration-none">
+              <img
+                src="../assets\sosial_media\logo_linkedin.png"
+                class="ms-2"
+                style="width: 35px"
+                alt=""
+              />
+            </a>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <!-- Akhir Footer -->
+  </body>
+</html>
