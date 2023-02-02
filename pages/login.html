@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" type="text/css" href="../css/bootstrap.css" />
+    <link rel="stylesheet" type="text/css" href="../styles/home.css" />
+    <script
+      src="https://kit.fontawesome.com/50d3c94142.js"
+      crossorigin="anonymous"
+    ></script>
+    <script src="../js/bootstrap.js"></script>
+  </head>
+  <body>
+    <!-- Awal Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+      <div class="container">
+        <a class="navbar-brand" href="#">
+          <img
+            src="../assets\image\logo.jpg"
+            alt="Logo"
+            width="50"
+            height="50"
+            class="me-2"
+          />
+          ZARA
+        </a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <form class="d-flex ms-auto my-4 my-lg-0" role="search">
+            <input
+              class="form-control me-2"
+              type="search"
+              placeholder="Search"
+              aria-label="Search"
+            />
+            <button class="btn-light" type="submit">
+              <i class="fa-sharp fa-solid fa-magnifying-glass"></i>
+            </button>
+          </form>
+
+          <!-- List Navbar -->
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#"
+                >Keranjang</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Notifikasi</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Bantuan</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="register.html">Daftar</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="login.html">Masuk</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!-- Akhir Navbar -->
+
+    <!-- Awalan Login -->
+    <div class="container">
+      <div class="row">
+      <div class="col"></div>
+      <div class="col" style="background-color: white; margin: 30px; padding: 50px; border-radius: 10px; ">
+          <h1>Login Akun Game</h1>
+              <form>
+                  <div class="form-group">
+                      <label for="exampleFormControlInput1">Alamat Email</label>
+                      <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="nama@mail.com">
+                  </div>
+                  <div class="form-group">
+                  <label for="exampleFormControlInput1">Password</label>
+                  <input type="Password" class="form-control" id="exampleFormControlInput1" placeholder="*">
+              </div>
+              </form>
+
+              <p><div class="checkbox">
+                    <label><input type="checkbox" value="" style="margin-right: 5px;"> Ingat saya</label>
+              </div></p>
+              <a href="index.html"><button type="submit" class="btn btn-black" style="width: 100%; margin-bottom: 10px;">Masuk</button></a>
+
+
+
+              <div class="dropdown-divider" style="margin-top: 20px; margin-bottom: 20px;"></div>
+
+              <button type="button" class="btn btn-primary" style="width: 45%; margin-left: 5%;"><i class="fab fa-facebook-f" style="color: black"></i>   Login dengan Facebook</button>
+              <button type="button" class="btn btn-danger" style="width: 45%;"><i class="fab fa-google" style="color: black"></i>   Login dengan Google</button>
+
+              <div class="dropdown-divider" style="margin-top: 20px; margin-bottom: 20px;"></div>
+
+              <p><a href="" style="color: blue;">Lupa Password?</a></p>
+              <p>Ingin membuat akun baru?<a href="register.html" style="color: blue;">Buat disini</p></a>
+      </div>
+      <div class="col"></div>
+    </div>
+  </div>
+    <!-- Akhir Login -->
+
+    <!-- Awal Footer -->
+    <footer class="bg-light p-5 mt-5">
+      <div class="container">
+        <div class="row mt-2">
+          <div class="col-md-6 text-md-start text-center pt-2 pb-2">
+            <a href="#" class="text-decoration-none">
+              <img src="../assets\produk\logo.jpg" style="width: 40px" alt="" />
+            </a>
+            <span
+              >Copyright @2023 | Create by
+              <a
+                href="https://iprice.co.id/komputer/laptop/"
+                class="text-decoration-none text-dark fw-bold"
+                >Apaiyaa</a
+              ></span
+            >
+          </div>
+          <div class="col-md-6 text-md-end text-center pt-2 pb-2">
+            <a href="#" class="text-decoration-none">
+              <img
+                src="../assets\sosial_media\logo_fb.jpg"
+                class="ms-2"
+                style="width: 40px"
+                alt=""
+              />
+            </a>
+            <a href="#" class="text-decoration-none">
+              <img
+                src="../assets\sosial_media\logo_ig.jpg"
+                class="ms-2"
+                style="width: 55px"
+                alt=""
+              />
+            </a>
+            <a href="#" class="text-decoration-none">
+              <img
+                src="../assets\sosial_media\logo_twitter.jpg"
+                class="ms-2"
+                style="width: 45px"
+                alt=""
+              />
+            </a>
+            <a href="#" class="text-decoration-none">
+              <img
+                src="../assets\sosial_media\logo_linkedin.png"
+                class="ms-2"
+                style="width: 35px"
+                alt=""
+              />
+            </a>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <!-- Akhir Footer -->
+  </body>
+</html>
