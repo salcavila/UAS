@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="../css/bootstrap.css"/>
+    <link rel="stylesheet" type="text/css" href="../styles/produk.css" />
+    <script src="https://kit.fontawesome.com/50d3c94142.js" crossorigin="anonymous"></script>
+    <script src="../js/bootstrap.js"></script>
+
+</head>
+<body>
+
+    <!-- Awal Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container">
+            <a class="navbar-brand" href="#">
+                <img src="..\assets\image\logo.jpg" alt="Logo" width="50" height="50" class="me-2">
+                ZARA
+              </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <form class="d-flex ms-auto my-4 my-lg-0" role="search">
+                <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                <button class="btn-light" type="submit"><i class="fa-solid fa-magnifying-glass"></i></button>
+              </form>
+
+              <!-- List Navbar -->
+            <ul class="navbar-nav ms-auto">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Keranjang</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Notifikasi</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Bantuan</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Daftar</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Masuk</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+      <!-- Akhir Navbar -->
+
+     <!-- Awal Breadcrumb -->
+    <div class="container">
+        <nav aria-label="breadcrumb" style="background-color: #ffff;" class="mt-3">
+            <ol class="breadcrumb p-3">
+              <li class="breadcrumb-item"><a href="\index.html" class="text-decoration-none text-dark ">Home</a></li>
+              <li class="breadcrumb-item"><a href="\index.html" class="text-decoration-none text-dark">Kategori</a></li>
+              <li class="breadcrumb-item active" aria-current="page">Produk</li>
+            </ol>
+          </nav>
+          <a href="" class="text-decoration-none text-dark">
+    </div>
+     <!-- Akhir BreadCrum -->
+
+<!-- Singel Produk -->
+<div class="container">
+    <div class="row row-produk">
+        <div class="col-lg-5">
+            <figure class="figure">
+                <img src="..\assets\produk\laptop_1.jpeg" class="figure-img img-fluid" style="border-radius: 5px; width: 450px;">
+                <figcaption class="figure-caption d-flex justify-content-evenly">
+                    <a href="#" class="text-decoration-none">
+                        <img src="..\assets\produk\laptop_2.jpeg" class="figure-img img-fluid" style="border-radius: 5px; width: 70px;">
+                    </a>
+                    <a href="#" class="text-decoration-none">
+                        <img src="..\assets\produk\laptop_3.jpeg" class="figure-img img-fluid" style="border-radius: 5px; width: 70px;">
+                    </a>
+                    <a href="#" class="text-decoration-none">
+                        <img src="..\assets\produk\laptop_4.jpeg" class="figure-img img-fluid" style="border-radius: 5px; width: 70px;">
+                    </a>
+                    <a href="#" class="text-decoration-none">
+                        <img src="..\assets\produk\laptop_5.jpeg" class="figure-img img-fluid" style="border-radius: 5px; width: 70px;">
+                    </a>
+                    <a href="#" class="text-decoration-none">
+                        <img src="..\assets\produk\laptop_6.jpeg" class="figure-img img-fluid" style="border-radius: 5px; width: 70px;">
+                    </a>
+                </figcaption>
+              </figure>
+        </div>
+<!-- Garis Nama -->
+        <div class="col-lg-7">
+            <h4>Laptop Asus ROG</h4>
+            <div class="garis-nama"></div>
+            <h3 class="text-muted mb-3">Rp15.000.000</h3>
+
+            <button type="button" class="btn btn-dark btn-sm"><i class="fas fa-minus"></i></button>
+            <span class="mx-2">2</span>
+            <button type="button" class="btn btn-warning btn-sm"><i class="fas fa-plus text-white"></i></button>
+            <span class="mx-2">Tersisa 5 buah</span>
+
+            <div class="btn-produk mt-5">
+                <a href="#" class="btn btn-dark text-white btn-lg me-2 btn-custom"><i class="fas fa-shopping-cart fs-6 me-2"></i>Masukkan Keranjang</a>
+                <a href="#" class="btn btn-warning text-white btn-lg btn-custom">Beli Sekarang</a>
+            </div>
+        </div>
+        <!-- Akhir Garis Nama -->
+    </div>
+
+    <!-- Deskripsi Produk -->
+        <div class="row row-produk pt-5">
+            <div class="col-12">
+                <ul class="nav nav-tabs mb-3" id="myTab" role="tablist">
+                    <li class="nav-item" role="presentation">
+                      <button class="nav-link active" id="deskripsi-tab" data-bs-toggle="pill" data-bs-target="#deskripsi" type="button" role="tab" aria-controls="deskripsi" aria-selected="true">Deskripsi Produk</button>
+                    </li>
+                    <li class="nav-item" role="presentation">
+                      <button class="nav-link" id="review-tab" data-bs-toggle="tab" data-bs-target="#review" type="button" role="tab" aria-controls="review" aria-selected="false">Review Produk</button>
+                    </li>                   
+                  </ul>
+                  <div class="tab-content p-3" id="myTabContent">
+                    <div class="tab-pane fade show active deskripsi" id="deskripsi" role="tabpanel" aria-labelledby="deskripsi-tab">
+                        <p>
+                            <b>Deskripsi Produk</b> </br>                        
+                            Kondisi: Baru </br>
+                            Berat Satuan: 5,8 kg </br>
+                            Kategori: Laptop Gaming </br>
+                            Etalase: ASUS </br>
+                            Katalog: Asus ROG Strix Scar 15 </br>
+                            ASUS ROG Strix SCAR 15 G533ZM-I936D6T-O Off Black </br> </br>
+                            
+                            BEAT THE BEST. BE THE BEST. </br> </br>
+                            
+                            • CPU : 12th Gen Intel® Core™ i9-12900H Processor 2.5 GHz (24M Cache, up to 5.0 GHz, 14 cores: 6 P-cores and 8 E-cores) </br>
+                            • Memory : 16GB (8GB DDR5-4800 SO-DIMM *2) </br>
+                            • Storage : 1TB M.2 NVMe™ PCIe® 4.0 SSD </br>
+                            • GPU : NVIDIA® GeForce RTX™ 3060 Laptop GPU 6GB GDDR6 MUX Switch + Optimus </br>
+                            ROG Boost: 1752MHz* at 140W (1702MHz Boost Clock+50MHz OC, 115W+25W Dynamic Boost) </br>
+                            • Display : 15.6-inch FHD (1920 x 1080) 16:9 IPS-level ; Refresh Rate 300Hz; Response Time (G2G) 3ms ; Brightness 300nits ; sRGB % 100% ; Adaptive-Sync </br>
+                            • Keyboard : Backlit Chiclet Keyboard Per-Key RGB </br> </br>
+                            
+                            • Software : </br>
+                            - Operating System : Windows 11 Home </br>
+                            - Office : Office Home and Student 2021 </br> </br>
+                            
+                            • Audio : </br>
+                            - Speaker : 4-speaker system with Smart Amplifier Technology </br>
+                            - Audio Tech : </br>
+                            AI noise-canceling technology </br>
+                            Dolby Atmos </br>
+                            Hi-Res certification </br>
+                            Smart Amp Technology </br> </br>
+                            
+                            • Wifi : Wi-Fi 6E(802.11ax) </br>
+                            • Bluetooth : 5.2 (Dual band) 2*2 </br>
+                            (*BT version may change with OS upgrades.) -RangeBoost </br> </br>
+                            
+                            • I/O Port : </br>
+                            1x 2.5G LAN port </br>
+                            1x Thunderbolt™ 4 support DisplayPort™ </br>
+                            1x USB 3.2 Gen 2 Type-C support DisplayPort™ / power delivery / G-SYNC </br>
+                            2x USB 3.2 Gen 2 Type-A//1x 3.5mm Combo Audio Jack </br>
+                            
+                            • Battery : 90WHrs, 4S1P, 4-cell Li-ion </br> </br>
+                            
+                            • Free : </br>
+                            Marketing Giveaway (Keystone + 2 Customizable Armor Caps) </br>
+                            ROG backpack </br>
+                            FHD 1080P@60FPS external camera </br>
+                            ROG Chakram Core mouse P511 </br>
+                            
+                            • Dimension (W x D x H) : 35.4 x 25.9 x 2.26 ~ 2.72 cm </br>
+                            • Weight : 2.30 Kg </br> </br>
+                            
+                            • KSP : </br>
+                            - Powerful performance: Intel I9-12th Gen Processor and NVIDIA GeForce RTX3060 with MUX Switch </br>
+                            - Pro-level precision: FHD300Hz/3ms panel with 87% screen to body ratio, up to 100% DCI-P3 </br>
+                            - Power anywhere: 90Wh battery, 100W type-C charging, support Thunderbolt 4 </br>
+                            - Intelligent cooling: Liquid metal, 4 fans outlets, 6 heats pipes, cooling zone, anti dust </br>
+                            - Personalize: Keystone II with customizable armor cap and Aura Sync lighting </br> </br>
+                            
+                            Garansi Resmi Asus Indonesia 2 Tahun (1st Year VIP Perfect Warranty) </br> </br>
+                        </p>
+                    </div>
+                    <div class="tab-pane fade review" id="review" role="tabpanel" aria-labelledby="review-tab">
+                        <div class="row">
+                            <div class="col-3 col-md-1">
+                                <img src="../assets/reviewer/review_1.jpeg" class="review-img rounded-circle">
+                            </div>
+                            <div class="col">
+                                <h5 class="review-name"><b>Nisa Sabian</b></h5>
+                                <p class="review-desc">pelayanan ramah dan membantu. serta info dan produk sesuai dengan deskripsi.</p>
+                            </div>
+                        </div>
+
+                        <div class="row pt-2">
+                            <div class="col-3 col-md-1">
+                                <img src="../assets/reviewer/review_5.jpg" class="review-img rounded-circle">
+                            </div>
+                            <div class="col">
+                                <h5 class="review-name"><b>Ahmad Subarjo</b></h5>
+                                <p class="review-desc">bagus baget, kualitas kuat performa mantaap, tampilan terlalu gamer sih</p>
+                            </div>
+                        </div>
+                        <div class="row pt-2">
+                            <div class="col-3 col-md-1">
+                                <img src="../assets/reviewer/review_2.jpeg" class="review-img rounded-circle">
+                            </div>
+                            <div class="col">
+                                <h5 class="review-name"><b>Ferdo Samba</b></h5>
+                                <p class="review-desc">barang aman lengkap no cacat sampe d tangan dan yg terpenting sesuai dan kondisi lengkap, respon cepat dan cepat sampai</p>
+                            </div>
+                        </div>
+                        <div class="row pt-2">
+                            <div class="col-3 col-md-1">
+                                <img src="../assets/reviewer/review_3.jpeg" class="review-img rounded-circle">
+                            </div>
+                            <div class="col">
+                                <h5 class="review-name"><b>Argantari</b></h5>
+                                <p class="review-desc">pengiriman cepat tapi barang RoG masih asing</p>
+                            </div>
+                        </div>
+                        <div class="row pt-2">
+                            <div class="col-3 col-md-1">
+                                <img src="../assets/reviewer/review_4.jpeg" class="review-img rounded-circle">
+                            </div>
+                            <div class="col">
+                                <h5 class="review-name"><b>Dede</b></h5>
+                                <p class="review-desc">mantaaaap..brg smpai sni.mulus sentosa</p>
+                            </div>
+                        </div>
+                        
+                    </div>
+                  </div>
+            </div>
+        </div>
+    <!-- Akhir Deskripsi Produk -->
+</div>
+<!-- Akhir Singel Produk -->
+      <!-- Awal Footer -->
+      <footer class="bg-light p-5 mt-5">
+        <div class="container">
+          <div class="row mt-2">
+            <div class="col-md-6 text-md-start text-center pt-2 pb-2">
+                <a href="#" class="text-decoration-none">
+                <img src="../assets\image\logo.jpg" style="width: 40px" alt="">
+              </a>
+              <span>Copyright @2023 | Create by <a href="https://iprice.co.id/komputer/laptop/" class="text-decoration-none text-dark fw-bold">Apaiyaa</a></span>
+            </div>
+            <div class="col-md-6 text-md-end text-center  pt-2 pb-2">
+                <a href="#" class="text-decoration-none">
+                <img src="../assets\sosial_media\logo_fb.jpg" class="ms-2" style="width: 40px" alt="">
+              </a>
+              <a href="#" class="text-decoration-none">
+                <img src="../assets\sosial_media\logo_ig.jpg" class="ms-2" style="width: 55px" alt="">
+              </a>
+              <a href="#" class="text-decoration-none">
+                <img src="../assets\sosial_media\logo_twitter.jpg" class="ms-2" style="width: 45px" alt="">
+              </a>
+              <a href="#" class="text-decoration-none">
+                <img src="../assets\sosial_media\logo_linkedin.png" class="ms-2" style="width: 35px" alt="">
+              </a>
+            </div>
+          </div>
+        </div>
+      </footer>
+      <!-- Akhir Footer -->
+</body>
+</html>
